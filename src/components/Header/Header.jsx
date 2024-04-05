@@ -16,12 +16,13 @@ function Header() {
                 <div className='hidden lg:block'>
                     <h4>Hi Grand Cafe</h4>
                     <div className='mt-4'>
-                        <select className='bg-white rounded-lg text-black h-6 px-5' name="category" id="category">
+                        <select className='bg-white appearance-auto rounded-lg text-black h-6 px-5' name="category" id="category">
                             <option>Select Category</option>
                             <option value="cat1">Category1</option>
                             <option value="cat2">Category2</option>
                             <option value="cat3">Category3</option>
                         </select>
+                        
                     </div>
                 </div>
             </div>
