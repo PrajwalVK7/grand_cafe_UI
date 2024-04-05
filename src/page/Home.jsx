@@ -19,14 +19,14 @@ function Home() {
     return (
         <>
             <section id='home-container'>
-                <div className='container mx-auto lg:my-5 my-2 '>
+                <div className='container mx-auto lg:my-10 my-0 '>
                     <img className=' px-2 object-fill w-100 rounded-3xl' style={{width:'100%', height:'32rem'}} src={homebg} alt="" />
                 </div>
             </section>
-            <section id='service' className='lg:my-32 my-3'>
+            <section id='service' className='lg:my-35 my-3'>
                 <Fragment>
                     <h1 className='text-center text-3xl text-black font-bold'>Select Service</h1>
-                    <div className='container mx-auto my-10'>
+                    <div className='container mx-auto my-10 sm:my-0'>
                         <ServiceCard />
                     </div>
                 </Fragment>
