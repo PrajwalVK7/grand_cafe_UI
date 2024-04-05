@@ -21,7 +21,7 @@ function ServiceCard() {
                 services.map((item, index) => (
                     <div className='flex  flex-col justify-center items-center align-middle  '>
                         <img  className=' rounded-2xl h-20 w-72 lg:h-72 lg:w-72' src={item.img} alt="" />
-                        <h2 className='text-center text-wrap text-xl my-3'>{item.title}</h2>
+                        <h2 className='text-center md:text-base text-xl my-3'>{item.title}</h2>
                     </div>
                 )) : <p>....</p>
             }

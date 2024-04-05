@@ -23,9 +23,9 @@ function Home() {
                     <img className=' px-2 object-fill w-100 rounded-3xl' style={{width:'100%', height:'32rem'}} src={homebg} alt="" />
                 </div>
             </section>
-            <section id='service' className='lg:my-35 my-0'>
+            <section id='service' className='lg:my-35 my-2'>
                 <Fragment>
-                    <h1 className='text-center text-3xl text-black font-bold'>Select Service</h1>
+                    <h1 className='text-center text-2xl text-black font-bold'>Select Service</h1>
                     <div className='container mx-auto my-10 sm:my-1'>
                         <ServiceCard />
                     </div>
@@ -41,7 +41,7 @@ function Home() {
                             {
                                 states && 
                                 states.map((item)=>(
-                                    <div className='border-2 rounded-lg  shadow-lg drop-shadow-xl p-5'><h2 className='text-center'>{item}</h2></div>
+                                    <div className='border-2 rounded-lg  shadow-lg drop-shadow-xl p-5'><h2 className='text-center text-clip overflow-hidden text-xl sm:text-sm md:text-base'>{item}</h2></div>
                                 ))
                             }
                         </div>
