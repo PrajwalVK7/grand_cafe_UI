@@ -19,11 +19,11 @@ function Home() {
     return (
         <>
             <section id='home-container'>
-                <div className='container mx-auto lg:my-10 my-2 '>
-                    <img className=' px-2 object-fill w-100 h-max rounded-3xl' style={{width:'100%', height:'38rem'}} src={homebg} alt="" />
+                <div className='container mx-auto lg:my-5 my-2 '>
+                    <img className=' px-2 object-fill w-100 rounded-3xl' style={{width:'100%', height:'32rem'}} src={homebg} alt="" />
                 </div>
             </section>
-            <section id='service' className='lg:my-10 my-3'>
+            <section id='service' className='lg:my-32 my-3'>
                 <Fragment>
                     <h1 className='text-center text-3xl text-black font-bold'>Select Service</h1>
                     <div className='container mx-auto my-10'>
