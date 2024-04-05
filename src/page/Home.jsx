@@ -26,7 +26,7 @@ function Home() {
             <section id='service' className='lg:my-35 my-0'>
                 <Fragment>
                     <h1 className='text-center text-3xl text-black font-bold'>Select Service</h1>
-                    <div className='container mx-auto my-10 sm:my-0'>
+                    <div className='container mx-auto my-10 sm:my-1'>
                         <ServiceCard />
                     </div>
                 </Fragment>
@@ -41,7 +41,7 @@ function Home() {
                             {
                                 states && 
                                 states.map((item)=>(
-                                    <div className='border-2 rounded-lg  shadow-lg drop-shadow-2xl p-5'><h2 className='text-center'>{item}</h2></div>
+                                    <div className='border-2 rounded-lg  shadow-lg drop-shadow-xl p-5'><h2 className='text-center'>{item}</h2></div>
                                 ))
                             }
                         </div>
