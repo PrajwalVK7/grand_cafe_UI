@@ -1,0 +1,10 @@
+#logo{
+    /* background: transparent;
+    mix-blend-mode: multiply; */
+    filter: brightness(0) invert(1);
+
+}
+
+#category option {
+    border: none;
+}
